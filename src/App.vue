@@ -141,6 +141,8 @@
 
     comparisonInputAndSeries() {
       if (this.userInput.length === 0) {
+
+        
         return;
       }
       if (this.userInput[this.userInput.length-1] !== this.series[this.userInput.length-1]) {
